@@ -1,5 +1,6 @@
 /*1 Задача */
 function concatStrings(string, separator, finish) {
+  
   return function(nextString) {
 
     if (nextString === undefined) {
